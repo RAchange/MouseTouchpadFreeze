@@ -5,6 +5,7 @@
 ## 環境
 * Windows 10
 * WDK 10.x
+* Visual Studio
 * x86/x64 artitecture
 * Synaptics SMBus TouchPad driver
 * 作業系統需要關閉驅動簽章認證，或者~~劫持合法軟體的簽章~~
