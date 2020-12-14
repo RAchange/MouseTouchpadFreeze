@@ -26,7 +26,7 @@ PDEVICE_OBJECT ccpOpenMouse(NTSTATUS* status)
 	memset(name, 0, sizeof(WCHAR) * 32);
 	RtlStringCchPrintfW(
 		name, 32,
-		L"\\Device\\ACPI\\SYN1509\\4&1B768927&0");
+		L"\\Device\\<你的裝置號碼>");
 	RtlInitUnicodeString(&name_str, name);
 
 	// 打開對應設備
